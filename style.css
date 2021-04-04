@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toasts {
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  border: 1px solid black;
+  padding: 2px;
+  margin: 5px;
+}
+.notification {
+  padding: 5px;
+  background: white;
+  color: black;
+  border-radius: 2px;
+}
+
+.error {
+  color: red;
+}
+
+.warning {
+  color: blue;
+}
+
+.info {
+  color: green;
+}
